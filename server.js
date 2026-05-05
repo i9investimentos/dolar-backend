@@ -1,6 +1,7 @@
 import express from "express";
 import { WebSocketServer } from "ws";
-import yahooFinance from "yahoo-finance2";
+import YahooFinance from "yahoo-finance2";
+const yahooFinance = new YahooFinance();
 import cors from "cors";
 import http from "http";
 
